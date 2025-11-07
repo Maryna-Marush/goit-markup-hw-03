@@ -1,7 +1,14 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto",sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+
 }
 .main-title
 {
@@ -9,7 +16,6 @@ body {
         letter-spacing: 0.02em;
         font-size: 56px;
         line-height: 1.07
-
     }
 
 h2 { 
@@ -161,7 +167,7 @@ color: #404bbf;
 }
 .text {
     font-size: 16px;
-    ç 1.5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 
@@ -182,4 +188,13 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 font-size: 16px;
 letter-spacing: 0.02em;
+}
+
+.container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px;
 }
