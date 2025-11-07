@@ -50,15 +50,25 @@ nav {
         
     }
 
-.page-nav .nav-link:focus {
+.nav-link:focus {
 color: #404bbf;
         }
+.page-nav{
+color: #404bbf;
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+gap: 40px;
+}
 .nav-link {
+    display: block;
     text-decoration: none;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -74,6 +84,7 @@ color: #404bbf;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
+    margin-right: 76px;
 }
     .studio {
         text-decoration: none;
@@ -87,6 +98,11 @@ color: #404bbf;
 
 .address-page {
     font-style: normal;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .address-link {
@@ -194,7 +210,17 @@ letter-spacing: 0.02em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1440px;
+    width: 1158px;
     margin: 0 auto;
-    padding: 24px;
+    padding: 0 15px;
+}
+.img {
+    display: block;
+}
+.nav-webstudio {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+
+
 }
