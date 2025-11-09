@@ -388,6 +388,7 @@ letter-spacing: 0.02em;
 .nav-webstudio {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 
 }
 
