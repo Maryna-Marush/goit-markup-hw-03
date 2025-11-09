@@ -13,6 +13,15 @@ img {
     display: block;
 }
 
+.page-title {
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    background-color: #2e2f42;
+    padding: 188px;
+}
 
 .main-title
 {
@@ -22,6 +31,7 @@ img {
         line-height: 1.07;
         max-width: 496px;
         color: #FFFFFF;
+        
     }
 
 
@@ -124,13 +134,12 @@ color: #404bbf;
 .address-list {
     list-style: none;
     display: flex;
-    
+    gap: 40px;
 }
 
 
 .address-page {
     font-style: normal;
-    gap: 40px;
     margin: 0;
     padding: 0;
 }
@@ -150,16 +159,7 @@ color: #404bbf;
 }
 
 
-.page-title {
-    color: #ffffff;
-    font-size: 56px;
-    text-align: center;
-    line-height: 1.07;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    background-color: #2e2f42;
-    padding: 188px;
-}
+
 
 
 .button {
