@@ -99,7 +99,8 @@ nav {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
-
+    
+    margin: 0;
     display: inline-block;
     margin-bottom: 16px;
     margin-right: 76px;
@@ -118,7 +119,9 @@ nav {
 .nav-webstudio {
     display: flex;
     align-items: center;
-    margin-right: 76px
+    margin-right: 76px;
+
+    gap: 40px;
 
 }
 
