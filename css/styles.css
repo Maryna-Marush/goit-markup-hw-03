@@ -12,37 +12,6 @@ body {
 img {
     display: block;
 }
-
-.page-title {
-    text-align: center;
-    line-height: 1.07;
-    background-color: #2e2f42;
-    background-position: center;
-    background-size: cover;
-    padding: 188px 0;
-    margin: 0 auto;
-}
-
-.main-title
-{
-        font-family: "Roboto", sans-serif;
-        font-size: 56px;
-        letter-spacing: 0.02em;
-        font-size: 56px;
-        line-height: 1.07;
-        max-width: 496px;
-        color: #FFFFFF;
-        font-weight: 700;
-        letter-spacing: 0.02em;
-        
-    }
-
-
-h2 { 
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.02em;
-
-}
     
 
 .header {
@@ -51,6 +20,16 @@ font-weight: 500;
 margin: 0 auto;
 padding: 0 15px;
 border-bottom: 1px solid #e7e9fc;
+background-color: #ffffff;
+}
+
+.header .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 24px 0;
+max-width: 1158px;
+margin: 0 auto;
 }
 
 
@@ -70,17 +49,17 @@ nav {
 
 
 .page-nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 40px;
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+gap: 40px;
 
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+font-size: 16px;
+line-height: 1.5;
+font-weight: 500;
+letter-spacing: 0.02em;
+color: #2e2f42;
         
     }
 
@@ -117,6 +96,7 @@ color: #404bbf;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
+
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -131,22 +111,31 @@ color: #404bbf;
     letter-spacing: 0.03em;
 }
 
+.nav-webstudio {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+
+}
+
 .address-list {
     list-style: none;
     display: flex;
     gap: 40px;
-}
-
-
-.address-page {
-    font-style: normal;
     margin: 0;
     padding: 0;
 }
 
 
+.address-page {
+    font-style: normal;
+    
+}
+
+
 .address-link {
     text-decoration: none;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -160,6 +149,28 @@ color: #404bbf;
 
 
 
+.page-title {
+    background-color: #2e2f42;
+
+    text-align: center;
+    line-height: 1.07;
+    padding: 188px 0;
+    background-position: center;
+    
+    background-size: cover;
+}
+
+.main-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 0 auto 48px;
+}
 
 
 .button {
@@ -169,13 +180,12 @@ color: #404bbf;
     border: none;
     border-radius: 4px;
     background-color: #4D5AE5;
+    color: #ffffff;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
     cursor: pointer;
     font-size: 16px;
-    text-align: center;
     
 }
 .button:hover, 
@@ -185,7 +195,16 @@ color: #404bbf;
 
 
 .features {
+    background-color: #ffffff;
     padding: 120px 0;
+}
+
+.features-list {
+    display: block;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+
 }
 
 .feature-title {
@@ -196,8 +215,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
-
+    text-align: left;
 
 }
 .section-title {
@@ -208,18 +226,6 @@ color: #404bbf;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    gap: 24px;
-}
-
-.features-list {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    list-style: none;
-    display: flex;
     gap: 24px;
 }
 
@@ -330,7 +336,7 @@ flex: 0 0 auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    text-align: left;
 
 
 }
@@ -377,21 +383,8 @@ letter-spacing: 0.02em;
 }
 
 
-.header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 0;
-    max-width: 1158px;
-   
-}
 
-.nav-webstudio {
-    display: flex;
-    align-items: center;
-    padding: 0;
-    gap: 76px;
 
-}
+
 
 
