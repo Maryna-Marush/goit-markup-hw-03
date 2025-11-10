@@ -11,6 +11,8 @@ body {
 }
 img {
     display: block;
+    width: 100%;
+    height: auto;
 }
     
 
@@ -236,30 +238,35 @@ color: #404bbf;
 
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.section-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    padding: 120px 0;
-    
+    margin-bottom: 72px;
 
 }
 
 .team-h3 {
-    text-align: center;
-    margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: 500;
+    margin-bottom: 8px;
 
 }
 .team-list {
     display: flex;
     gap: 24px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 
 }
 
@@ -267,19 +274,23 @@ color: #404bbf;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
+    
 
 }
 
 
 .team-title {
     padding: 32px 0;
+    text-align: center;
 }
+
+
 .text-info {
-text-align: center;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+margin: 0;
 }
 
 .portfolio {
