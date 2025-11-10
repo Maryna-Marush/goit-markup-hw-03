@@ -405,7 +405,7 @@ nav {
 }
 
 
-.footer .logo {
+.footer-link {
     display: inline-block;
     margin-bottom: 16px;
     text-decoration: none;
@@ -418,7 +418,7 @@ nav {
     color: #4d5ae5;
 
 }
-.footer .logo .studio {
+.footer-logo .studio {
     color: #f4f4fd;
 }
 
