@@ -153,7 +153,6 @@ color: #404bbf;
 
 .page-title {
     background-color: #2e2f42;
-
     text-align: center;
     line-height: 1.07;
     padding: 188px 0;
@@ -166,7 +165,6 @@ color: #404bbf;
     font-family: "Roboto", sans-serif;
     font-size: 56px;
     letter-spacing: 0.02em;
-    font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
     color: #FFFFFF;
@@ -188,6 +186,7 @@ color: #404bbf;
     letter-spacing: 0.04em;
     cursor: pointer;
     font-size: 16px;
+    margin: 0 auto;
     
 }
 .button:hover, 
@@ -202,12 +201,13 @@ color: #404bbf;
 }
 
 .features-list {
-    display: block;
+    display: flex;
     gap: 24px;
     margin: 0;
     padding: 0;
 
 }
+
 
 .feature-title {
     font-family: "Roboto", sans-serif;
