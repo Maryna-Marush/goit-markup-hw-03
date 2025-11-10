@@ -30,9 +30,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 0;
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 
@@ -116,7 +116,7 @@ nav {
 .nav-webstudio {
     display: flex;
     align-items: center;
-    gap: 76px;
+    margin-right: 76px
 
 }
 
@@ -125,7 +125,7 @@ nav {
     display: flex;
     gap: 40px;
     margin: 0;
-    padding: 0;
+    padding: 24px 0;
 }
 
 
@@ -382,6 +382,7 @@ nav {
 .footer .web {
     display: inline-block;
     margin-bottom: 16px;
+
 }
 
 .text-footer {
