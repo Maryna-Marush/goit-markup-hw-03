@@ -316,7 +316,7 @@ nav {
 }
 
 .app {
-display: flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
@@ -327,7 +327,7 @@ display: flex;
 }
 
 .app-title {
-text-align: left;
+    text-align: left;
     border: none;
     padding: 0;
     }
@@ -335,26 +335,26 @@ text-align: left;
 .app-h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        margin-bottom: 8px;
-        font-size: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    font-size: 20px;
             
     
 }
 
 
  .portfolio-items {
-                display: flex;
-                align-items: center;
-                gap: 24px;
-                flex-basis: 100%;
-                background-color: #FFFFFF;
-                border: 1px solid #E7E9FC;
-                transition: box-shadow 250ms ease-in-out;
-                padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-basis: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E9FC;
+    transition: box-shadow 250ms ease-in-out;
+    padding: 24px;
     
 
 }
@@ -372,10 +372,10 @@ text-align: left;
 
 .app-text {
 
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 
 
 }
