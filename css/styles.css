@@ -366,7 +366,11 @@ nav {
 }
 
 
-
+.portfolio-items img {
+    width: 360px;
+    height: auto;
+    
+}
 
 
 .app-text {
