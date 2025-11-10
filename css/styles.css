@@ -350,17 +350,13 @@ nav {
     margin-bottom: 8px;
     font-size: 20px;
             
-    
 }
 
 
  .portfolio-items {
     flex-basis: calc((100% - 48px) / 3);
     background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    flex-basis: 100%;
+
     
 
 }
