@@ -381,6 +381,9 @@ nav {
     height: auto;  
 }
 
+.portfolio-items:nth-child(3n) {
+    margin-right: 0;
+}
 
 .app-text {
     text-align: left;
