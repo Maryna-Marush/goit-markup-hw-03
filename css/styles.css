@@ -349,7 +349,7 @@ padding: 32px 16px;
 
 }
 
-.app .portfolio-items:first-child {
+.app .app-title:first-child {
     width: calc((100% - 48px) / 3);
 }
 
