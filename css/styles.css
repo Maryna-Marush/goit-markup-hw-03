@@ -403,11 +403,7 @@ nav {
     flex-direction: column;
     align-items: flex-start;
 }
-.footer span {
-    color: #f4f4fd;
-    letter-spacing: 0.02em;
-    
-}
+
 
 .footer .logo {
     display: inline-block;
@@ -422,8 +418,11 @@ nav {
     color: #4d5ae5;
 
 }
+.footer .logo .studio {
+    color: #f4f4fd;
+}
 
-.text-footer {
+.footer-text {
     color: #E7E9FC;
     font-size: 16px;
     letter-spacing: 0.02em;
