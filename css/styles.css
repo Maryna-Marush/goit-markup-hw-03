@@ -269,7 +269,7 @@ nav {
 
 }
 
-.team-h3 {
+.team-h {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -366,11 +366,7 @@ nav {
 }
 
 
-.portfolio-items img {
-    width: 320px;
-    height: auto;
-    
-}
+
 
 
 .app-text {
