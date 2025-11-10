@@ -101,6 +101,7 @@ nav {
 
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px;
 }
 
 .studio {
@@ -320,7 +321,7 @@ nav {
     color: #2e2f42;
     list-style: none;
     gap: 24px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 8px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -343,8 +344,7 @@ nav {
 .portfolio-items {
     flex-basis: calc((100% - 48px) / 3);
     background-color: #FFFFFF;
-    border: 1px solid #E7E9FC;
-    border-top: none;
+    
 
 }
 
