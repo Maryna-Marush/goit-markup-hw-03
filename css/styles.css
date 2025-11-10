@@ -324,8 +324,8 @@ nav {
     text-align: left;
     margin-bottom: 8px;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
+    border: none;
+    padding: 0;
     }
 
 .app-h3 {
@@ -339,14 +339,23 @@ nav {
     display: block;
     gap: 24px;
     margin-bottom: 8px;
-    text-align: left;
+    
 }
 
 .portfolio-items {
-    flex-basis: calc((100% - 48px) / 3);
+    display: flex;
     background-color: #FFFFFF;
-    
+    align-items: center;
+    gap: 24px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    padding: 24px;
 
+}
+
+.portfolio-items img {
+    width: 320px;
+    height: auto;
 }
 
 .app .portfolio-items:first-child {
@@ -362,6 +371,13 @@ nav {
 
 
 }
+
+.portfolio-items img {
+    width: 320px;
+    height: auto;
+}
+
+
 .footer {
     background-color:#2e2f42;
     line-height: 1.5;
