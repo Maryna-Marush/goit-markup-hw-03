@@ -353,9 +353,6 @@ nav {
     flex-basis: 100%;
     background-color: #FFFFFF;
     border: 1px solid #E7E9FC;
-    border-top: none;
-    transition: box-shadow 250ms ease-in-out;
-    padding: 24px;
     
 
 }
@@ -422,10 +419,6 @@ nav {
     font-size: 16px;
     letter-spacing: 0.02em;
     max-width: 264px;
-}
-
-.footer .studio {
-    color: #f4f4fd;
 }
 
 
