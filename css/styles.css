@@ -421,9 +421,33 @@ nav {
     align-items: flex-start;
 }
 
+.footer-link {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+   
+}
+
+.footer-logo {
+text-decoration: none;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+color: #2e2f42;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.03em;
+display: inline-block;
+
+}
 
 
-.footer-link .studio {
+
+.footer-logo {
     color: #f4f4fd;
 }
 
@@ -432,4 +456,8 @@ nav {
     font-size: 16px;
     letter-spacing: 0.02em;
     max-width: 264px;
+    line-height: 1.5;
+    font-weight: 400;
+    
+
 }
