@@ -334,9 +334,12 @@ nav {
 .app {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+    gap: 24px;
+    row-gap: 48px;
     margin: 0;
     padding: 0;
+    list-style: none;
+    box-sizing: border-box;
 
 }
 
@@ -375,22 +378,16 @@ nav {
 .portfolio-items {
     width: calc((100% - 48px) / 3);
     background-color: #FFFFFF;
-    margin-right: 24px;
-    margin-bottom: 48px;
-   
+
+
 
 }
 
-
-.portfolio-items:nth-child(3n) {
-    margin-right: 0;
-}
 
 .portfolio-items img {
     width: 100%;
     height: auto;
     display: block;
-    object-fit: cover;
 
 }
 
@@ -424,20 +421,9 @@ nav {
     align-items: flex-start;
 }
 
-.footer-logo {
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: inline-block;
-    padding-top: 100px;
-}
 
 
-.footer-link .footer-logo {
+.footer-link .studio {
     color: #f4f4fd;
 }
 
@@ -445,40 +431,5 @@ nav {
     color: #E7E9FC;
     font-size: 16px;
     letter-spacing: 0.02em;
-    line-height: 1.5;
-    font-weight: 400;
     max-width: 264px;
-    text-align: left;
-    
-}
-
-
-
-
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.footer-link {
-    margin-bottom: 16px;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    display: inline-block;
-
 }
