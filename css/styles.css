@@ -339,6 +339,7 @@ nav {
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
 
 }
 
@@ -384,8 +385,9 @@ nav {
 
 
 .portfolio-items img {
-    width: 360px;
+    width: 100%;
     height: auto;
+    display: block;
 
 }
 
