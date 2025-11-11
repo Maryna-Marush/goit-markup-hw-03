@@ -428,9 +428,20 @@ nav {
     align-items: flex-start;
 }
 
+.footer-logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 100px;
+}
 
 
-.footer-link .studio {
+.footer-link .footer-logo {
     color: #f4f4fd;
 }
 
@@ -438,7 +449,11 @@ nav {
     color: #E7E9FC;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-weight: 400;
     max-width: 264px;
+    text-align: left;
+    
 }
 
 
